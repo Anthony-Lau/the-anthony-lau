@@ -2,3 +2,8 @@
   display: inline-block;
   margin: 20px;
 }
+
+.btn-lg{
+  background-color: #6d45a2 !important;
+  border-color: #6d45a2 !important
+}
