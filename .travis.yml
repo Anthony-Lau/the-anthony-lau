@@ -8,4 +8,4 @@ deploy:
   provider: heroku
   api_key:
     secure: ${heroku_key}
-  app: react-travis-heroku
+  app: the-anthony-lau
