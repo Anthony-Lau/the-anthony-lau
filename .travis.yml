@@ -4,10 +4,10 @@ node_js:
 cache:
   directories:
     - node_modules
-stages:
-  - name: deploy
-    if: branch = master
-    deploy:
-      provider: heroku
-      api_key:
-        secure: ${heroku_key}
+jobs:
+  stages:
+    - name: deploy
+      deploy:
+        provider: heroku
+        api_key:
+          secure: ${heroku_key}
