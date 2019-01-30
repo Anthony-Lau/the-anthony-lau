@@ -11,13 +11,7 @@
   color: white
 }
 
-a.button:hover{
-  text-decoration: none;
-  border: .5rem solid rgb(72, 72, 72);
-  color: rgb(72, 72, 72)
-}
-
-a.button:active{
+a.button:hover, a.button:active{
   text-decoration: none;
   border: .5rem solid rgb(72, 72, 72);
   color: rgb(72, 72, 72)
