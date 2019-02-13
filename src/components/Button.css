@@ -1,14 +1,21 @@
+.center {
+  display: flex;
+  align-items: center;
+}
+
 .button {
-  display: inline-flex;
-  flex-direction: column;
   margin: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  border: .5rem solid white;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.weirdCoolButton { 
+  margin: 1rem;
   border: .5rem solid white;
   border-radius: 1.5rem;
   min-height: 4rem;
-  color: white
+  color: white;
 }
 
 a.button:hover, a.button:active{
@@ -17,8 +24,13 @@ a.button:hover, a.button:active{
   color: rgb(72, 72, 72)
 }
 
-.link {
-  vertical-align: middle;
+a.weirdCoolButton:hover, a.weirdCoolButton:active{
+  text-decoration: none;
+  border: .5rem solid rgb(72, 72, 72);
+  color: rgb(72, 72, 72)
+}
+
+.text {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1rem;

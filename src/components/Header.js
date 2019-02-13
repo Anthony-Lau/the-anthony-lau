@@ -1,19 +1,22 @@
 import React, { Component } from 'react'
-import { PageHeader, Grid, Row, Col } from 'react-bootstrap'
+import {BrowserRouter as Router, Link} from 'react-router-dom'
 import './Header.css'
 
 class Header extends Component { 
   render() {
     return (
-      <PageHeader className="headerStyle">
-        <Grid>
-          <Row>
-            <Col xsOffset={6}>
-              Anthony Lau
-            </Col>
-          </Row>
-        </Grid>
-      </PageHeader>
+      <Router>
+        <div className="header">
+          <div className="name">
+            Anthony Lau
+          </div>
+          <div className="contact">
+            <Link to="/contact" className="routerLink" style={{textDecoration: "none"}}>
+              Contact
+            </Link>
+          </div>
+        </div>
+      </Router>
     );
   }
 }

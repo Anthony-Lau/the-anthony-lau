@@ -5,9 +5,9 @@ import './Body.css'
 class Body extends Component {
   render() {
     return (
-      <div className="body">
-        <Button socialMedia="LinkedIn" link="https://www.linkedin.com/in/anthony-lau-29a738117"></Button>
-        <Button socialMedia="Github" link="https://github.com/Anthony-Lau"></Button>
+      <div className="footer">
+        <Button text="LinkedIn" link="https://www.linkedin.com/in/anthony-lau-29a738117"></Button>
+        <Button text="Github" link="https://github.com/Anthony-Lau"></Button>
       </div>
     );
   }

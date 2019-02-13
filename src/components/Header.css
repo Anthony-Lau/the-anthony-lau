@@ -1,3 +1,31 @@
-.headerStyle {
-  border: 0 !important
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.contact {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 5rem;
+  margin: 2rem;
+  height: 5rem;
+  width: 20rem;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: bold;  
+  line-height: 5rem;
+  margin: 2rem;
+  height: 5rem;
+  width: 30rem;
+}
+
+.routerLink {
+  color: rgb(45, 45, 45);
+}
+
+.routerLink:hover{ 
+  color: rgb(72, 72, 72);
 }

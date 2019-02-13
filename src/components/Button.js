@@ -4,11 +4,13 @@ import './Button.css'
 class Button extends Component {
   render() {
     return (
-      <a href={this.props.link} className="button">
-        <div className="link">
-            {this.props.socialMedia}
-        </div>
-      </a>  
+      <div className="center">
+        <a href={this.props.link} className="button" target="_blank" rel="noopener noreferrer">
+          <div className="text">
+              {this.props.text}
+          </div>
+        </a>  
+      </div>
     );
   }
 }
