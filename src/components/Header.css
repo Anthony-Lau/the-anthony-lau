@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
+  color:rgb(33, 33, 33);
+}
+
+@media all and (max-width: 478px){
+  .header{
+    height: 13rem;
+  }
 }
 
 .contact {
@@ -23,7 +30,7 @@
 }
 
 .routerLink {
-  color: rgb(45, 45, 45);
+  color: rgb(33, 33, 33);
 }
 
 .routerLink:hover{ 
