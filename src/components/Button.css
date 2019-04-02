@@ -3,11 +3,12 @@
   align-items: center;
 }
 
-.button {
+.button, a.button:focus {
   margin: 1rem;
   border: .5rem solid white;
   border-radius: 1.5rem;
   color: white;
+  text-decoration: none;
 }
 
 .weirdCoolButton { 

@@ -1,0 +1,28 @@
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.phone-border {
+  background: #F6E0C9;
+  display: flex;
+  align-content: center;
+  padding: .5rem;
+  border-radius: 6.5rem;
+}
+
+.phone-shade {
+  background: #A9A9A9;
+  display: flex;
+  align-content: center;
+  padding: .5rem;
+  border-radius: 6rem;
+}
+
+.phone {
+  background: black;
+  height: 77rem;
+  width: 38rem;
+  border-radius: 5.5rem;
+}
